@@ -149,15 +149,34 @@ Qbar=(~Qbar&k)|(Qbar&~j);
 end
 endmodule
 ```
+### D Flipflop
+```
+module dflipflop(d,clk,q,qbar);
+input d,clk;
+output q,qbar;
+reg q,qbar;
+initial q=0;
+initial qbar=1;
+always @(posedge clk)
+begin 
+q<=d;
+qbar<=~d;
+end
+endmodule
+```
 ### RTL LOGIC FOR SR FLIPFLOPS 
 ![Screenshot 2023-09-15 091447](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/1bc88871-4bf5-448f-9f86-927c28d54f9b)
 ### RTL LOGIC FOR JK FLIPFLOPS
 ![WhatsApp Image 2023-09-22 at 09 20 39](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/09d04eb0-3cbd-4737-a02f-3458f788b7f9)
+### RTL LOGIC FOR D FLIPFLOPS
+![Screenshot 2023-10-06 094049](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/7486d973-a028-451d-8f63-7ac452a8e0da)
 
 ### Waveform Output For SR:
 ![Screenshot 2023-09-15 093155](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/d3c1e24f-ba47-467f-841d-37772682dd41)
 ### Waveform Output For JK:
 ![image](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/4cef0bb8-8b6b-41cf-8502-449d3bd82d7f)
+### Waveform Output For D:
+![Screenshot 2023-10-06 094301](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/06d95d85-6b7c-4cf8-8810-b27715c82473)
 
 ### Truth table For SR:
 ![image](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/62db8ecc-51b1-4210-9316-a4242725dfec)
