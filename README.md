@@ -194,8 +194,6 @@ endmodule
 ![image](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/4cef0bb8-8b6b-41cf-8502-449d3bd82d7f)
 ### Waveform Output For D:
 ![Screenshot 2023-10-06 094301](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/06d95d85-6b7c-4cf8-8810-b27715c82473)
-### Waveform Output for D:
-![image](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/a3fa0e95-0a25-4bac-9c88-030008017676)
 ### Waveform Output For T:
 ![273103310-4cf86f61-ea62-41db-af11-cb61d6d11541](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/45bc9962-f40f-49ab-9d07-a9e4167ab2ea)
 
@@ -203,6 +201,8 @@ endmodule
 ![image](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/62db8ecc-51b1-4210-9316-a4242725dfec)
 ### Truth table For JK:
 ![Screenshot 2023-09-22 093655](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/081d22fe-e63b-434c-8352-4e8cf27df2af)
+### Truth table for D:
+![image](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/a3fa0e95-0a25-4bac-9c88-030008017676)
 ### Truth table for T:
 ![image](https://github.com/Sabariakash22009103/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390227/539253e4-b393-436a-accb-50039cc14b75)
 
